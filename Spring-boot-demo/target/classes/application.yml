@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    password: root123
+    url: jdbc:mysql://localhost:3306/zensar1
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format-sql: true
+    show-sql: true
